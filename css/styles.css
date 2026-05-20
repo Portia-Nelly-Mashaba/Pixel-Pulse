@@ -678,6 +678,25 @@ footer .footer-col a:hover,
   min-width: 280px;
 }
 
+.form-sent {
+  display: none;
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  background-color: rgba(121, 163, 177, 0.2);
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  color: var(--text-light);
+}
+
+.form-sent:target {
+  display: block;
+}
+
+.form-sent p {
+  margin: 0;
+  font-size: 0.95em;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
